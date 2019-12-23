@@ -28,6 +28,7 @@ public static WebDriver driver;
 		driver.findElement(By.xpath("//*[@id='passwd']")).sendKeys("password");
 		driver.findElement(By.xpath("//*[@id='userType']")).sendKeys("Local");
 		driver.findElement(By.xpath("//*[@id='loginForm']/button")).click();
+		System.out.println("Schooladmin Logged in successfully");
 		
 				
 	}
